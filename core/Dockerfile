@@ -1,4 +1,4 @@
-FROM resin/intel-nuc-debian:stretch
+FROM balenalib/%%BALENA_MACHINE_NAME%%-debian:stretch
 
 COPY docker /usr/bin/docker
 
