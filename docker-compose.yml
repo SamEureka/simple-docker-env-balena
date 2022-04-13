@@ -5,6 +5,6 @@ services:
       context: ./core
     restart: 'no'
     labels:
-      io.resin.features.kernel-modules: '1'
-      io.resin.features.firmware: '1'
-      io.resin.features.balena-socket: '1'
+      io.balena.features.kernel-modules: '1'
+      io.balena.features.firmware: '1'
+      io.balena.features.balena-socket: '1'
