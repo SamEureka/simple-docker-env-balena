@@ -1,8 +1,7 @@
 version: '2.1'
 services:
   core:
-    build:
-      context: ./core
+    build: ./core
     restart: 'no'
     labels:
       io.balena.features.kernel-modules: '1'
